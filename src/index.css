@@ -1,0 +1,257 @@
+*{
+  overflow-x: hidden;
+}
+footer
+{
+  background-color: #2C3E50;
+}
+footer h3
+{
+  color: white;
+  font-size: 500;
+  padding-block: 10px;
+}
+.footer2 i
+{
+  color: white;
+  font-size: 20px;
+  margin-inline: 5px;
+  border-radius: 50%;
+  border: white 1px solid;
+  width: 40px;
+  height: 40px;
+  padding-top: 9px;
+  cursor: pointer;
+}
+.footer{
+  background-color: #0B1015;
+}
+nav
+{
+  background-color: #2C3E50 !important;
+  height: 105px;
+  transition: height 0.5s ease;
+}
+.logo{
+  color: white !important;
+  font-size: 33px !important;
+  font-weight: 700;
+
+}
+.links a {
+  color: white !important;
+  font-weight: 700;
+  padding-inline: 15px !important;
+}
+nav.shrink
+{
+  height: 80px;
+}
+
+.home{
+  background-color: #1ABC9C;
+}
+.home-img
+{
+  margin-top: 100px;
+}
+.home-img img
+{
+  width: 250px;
+}
+.starr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+}
+.line {
+    width: 70px;
+    height: 4px;
+    background: white;   
+}
+
+.starr i {
+    font-size: 18px;
+    color: white;
+}
+.home-content h1{
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.home-content h6 
+{
+  color: white;
+}
+.about{
+  background-color: #1ABC9C;
+  height: 600px;
+}
+.about h1{
+  color: white;
+  font-weight: 700;
+  padding-top: 100px !important;
+}
+.par
+{
+  text-align: left;
+  padding-top: 10px;
+  padding-top: 20px;
+}
+.par p
+{
+  color: white;
+  font-size: 15px;
+}
+.contact-title{
+  padding-top: 120px;
+}
+.starrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+}
+.linee {
+    width: 70px;
+    height: 4px;
+    background: black;   
+}
+
+.starrr i {
+    font-size: 18px;
+    color: black;
+}
+.contact h1{
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 34px;
+}
+.form button
+{
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 35px;
+  width: 130px;
+}
+.port {
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.port-layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#1abc9cce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.port-layer i{
+  font-size: 80px;
+  color: white;
+}
+.port:hover .port-layer {
+  opacity: 1;
+}
+.modal-overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+.modal-content {
+    cursor: auto; 
+    display: inline-block;  
+    cursor: auto;
+    width: fit-content !important;
+}
+.modal-content img{
+  width: 550px;
+  margin: auto;
+  display: block;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+@media (max-width: 768px){
+    .modal-content img{
+      width: 450px;
+    }
+}
+.nav-link[aria-current="page"] {
+  background: #1abc9c;
+  color: white !important;
+  border-radius: 6px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  background-color: #f9fafb; 
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.not-found-content {
+  max-width: 500px;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.error-code {
+  font-size: 120px;
+  font-weight: 800;
+  color: #ef4444; 
+  margin: 0;
+  line-height: 1;
+}
+
+.error-message {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin-top: 20px;
+}
+
+.error-description {
+  font-size: 16px;
+  color: #6b7280;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.home-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3b82f6; 
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: #2563eb; 
+}
